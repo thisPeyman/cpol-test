@@ -2,8 +2,8 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  template: `mamadooo`,
+  standalone: true,
 })
 export class AppComponent {
   title = 'cpol-test';
