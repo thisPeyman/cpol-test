@@ -6,6 +6,9 @@ import { AuthQuery } from './auth.selectors';
 export class AuthFacade {
   state$ = this.store.select(AuthQuery.selectAuthState);
   token$ = this.store.select(AuthQuery.selectToken);
+  isLoading$ = this.store.select(AuthQuery.selectIsLoading);
+  user$ = this.store.select(AuthQuery.selectUser);
+  isAuthenticated$ = this.store.select(AuthQuery.selectIsAuthenticated);
 
   constructor(private store: Store) {}
 

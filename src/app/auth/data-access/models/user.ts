@@ -2,7 +2,7 @@ export interface User {
   id: number;
   mobile: string;
   username: string;
-  last_name: string;
-  first_name: string;
+  lastName: string;
+  firstName: string;
   avatar: string;
 }
