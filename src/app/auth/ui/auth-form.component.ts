@@ -63,6 +63,7 @@ import { FormBuilder, ReactiveFormsModule, Validators } from '@angular/forms';
           nz-button
           nzType="primary"
           type="submit"
+          class="mt-4"
         >
           ورود
         </button>
