@@ -80,6 +80,10 @@ import { FormBuilder, ReactiveFormsModule, Validators } from '@angular/forms';
       label {
         @apply pb-1;
       }
+
+      nz-form-item {
+        @apply flex flex-col mb-10;
+      }
     `,
   ],
   changeDetection: ChangeDetectionStrategy.OnPush,
